@@ -1,0 +1,40 @@
+body{
+    background-color: lightcyan;
+
+}
+
+h1 {
+
+    color:blueviolet;
+
+}
+
+.positivo {
+    color: deeppink;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.perigoso{
+
+    color:mediumblue;
+    font-family: 'Comic Sans', sans-serif;
+}
+
+#vermelho{
+    color: rgb(255, 0, 34);
+}
+
+.imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.topo{
+    text-align: center
+
+}
+
+.coisas{
+    background-color: lavender;
+
+}
