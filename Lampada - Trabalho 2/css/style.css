@@ -1,0 +1,58 @@
+/* Reset básico para evitar margens e paddings indesejados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;   /* centraliza horizontalmente */
+    align-items: center;       /* centraliza verticalmente */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 420px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.lampada {
+    margin: 25px 0;
+}
+
+.lampada img {
+    width: 150px;
+    max-width: 100%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Cores dos botões */
+.acender {
+    background-color: #28a745;
+    color: white;
+}
+
+.apagar {
+    background-color: #dc3545;
+    color: white;
+}
